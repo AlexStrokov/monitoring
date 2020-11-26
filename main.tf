@@ -1,6 +1,6 @@
 provider "google" {
-  project = var.project 
-  region  = var.region
+  project = "test-github" 
+  region  = "us-central1"
 }
 
 resource "google_compute_instance" "terraform" {
