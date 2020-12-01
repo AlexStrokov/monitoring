@@ -5,7 +5,7 @@ provider "google" {
 
 resource "google_compute_instance" "terraform" {
   name         = "monitoring-system"
-  machine_type = "e2-medium"
+  machine_type = "e2-small"
   zone         = "us-central1-a"
   tags         = ["http-server", "https-server"]
 
