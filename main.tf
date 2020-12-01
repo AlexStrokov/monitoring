@@ -21,8 +21,6 @@ resource "google_compute_instance" "terraform" {
     access_config {
 
     }
-  }
-  
-   
+  }   
 }
 
